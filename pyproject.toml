@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hen"
+version = "0.1.0"
+description = "Python library for Hemme Notation (HEN)"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Marco Mariotti", email = "hemme.dev@gmail.com"}
+]
+
+[tool.pytest.ini_options]
+python_files = ["*_tests.py"]
+
+[tool.setuptools.packages.find]
+include = ["hen*"]
