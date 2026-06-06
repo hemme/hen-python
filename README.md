@@ -65,7 +65,7 @@ The `Hen` object can also be constructed by reading HEN metadata embedded within
 import urllib.request
 from hen.hen import Hen
 
-url = "https://hen.hemme-dev.workers.dev/c/hen.9x9_7Dwb_6Gb_5Eb_4Eb_3Dw2.E7b.w/position.png"
+url = "https://wrk.goshawk.cc/c/hen.9x9_7Dwb_6Gb_5Eb_4Eb_3Dw2.E7b.w/position.png"
 opener = urllib.request.build_opener()
 opener.addheaders = [("User-Agent", "Mozilla/5.0")]
 urllib.request.install_opener(opener)
